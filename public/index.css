@@ -1,0 +1,218 @@
+/*Configurações gerais*/
+body {
+    background-color: #01629b;
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnGeral {
+    background-color: black;
+    border: none;
+    color: #6200ff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a {
+    color: #6200ff;
+}
+
+a:visited {
+    color: #6200ff;
+}
+
+a:hover {
+    color: #01629b;
+}
+
+/*Painel apresentação*/
+.Painel {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.painelColuna {
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
+
+/*Quem Somos*/
+.Quem {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin: 1%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.txtQuem {
+    margin: 30px;
+    font-size: medium;
+    font-style: italic;
+    color: black;
+    width: 50%;
+    display: block;
+}
+
+.imgQuem {
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+}
+
+/*Fileira de produtos*/
+.containers {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px 20px;
+    margin: 0 auto;
+}
+
+.imgProd {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Produtos {
+    margin: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.prodBlock {
+    margin: 3%;
+    text-align: left;
+}
+
+/*Fale Conosco*/
+.Fale {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 1%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.txtFale {
+    margin: 30px;
+    font-size: medium;
+    font-style: italic;
+    color: black;
+    width: 50%;
+    display: block;
+}
+
+.imgFale {
+    width: 55%;
+    border-radius: 10px;
+    display: block;
+    height: max-content;
+}
+
+/*Onde estamos*/
+.Onde{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
+.mapaOnde{
+     width: 50%;
+    border-radius: 10px;
+    display: block;
+}
+
+.txtOnde{
+    margin: 30px;
+    font-size: medium;
+    font-style: italic;
+    color: white;
+    width: 50%;
+    display: block;
+}
+
+.btnOnde {
+    color: white;
+}
+
+.btnOnde:hover {
+    color: white;
+}
+
+.btnOnde:visited{
+    color: white;
+}
+
+/*Rodape*/
+.Footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: black;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btnFooter {
+    margin: 20px;
+    border-radius: 100%;
+    padding: 10px;
+    border-style: hidden;
+    color: white;
+    height: 44px;
+    width: 44px;
+}
+
+.txtFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.cadbtn {
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.cadbtn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.cadbtn:visited{
+    color: white;
+    text-decoration: none;
+}

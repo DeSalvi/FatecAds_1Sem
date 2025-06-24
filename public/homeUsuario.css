@@ -1,0 +1,134 @@
+/*Configurações gerais*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/*Configurações Sidebar*/
+
+.sidebar {
+  width: 220px;
+  background-color: #01629b;
+  border-right: 1px solid #ccc;
+  padding: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.sideUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideLogo {
+  width: 180px;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: #dc3545;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-success {
+  background-color: #198754;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.linksPags {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: #01629b;
+  color: #6200ff;
+}
+
+/*Configurações Header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #0dcaf0;
+  color: #000;
+}
+
+.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.TituloHeader .h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo_header_read {
+  width: 60px;
+  height: auto;
+}
+.layoutContainer {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainHead {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.pageContent {
+  padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  background-color: #01629b;
+}
+
+
