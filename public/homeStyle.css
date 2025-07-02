@@ -29,10 +29,10 @@ body {
   width: 180px;
 }
 
-.btn-warning {
+.btnSair {
   background-color: #ffc107;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 7px;
   font-weight: bold;
   color: #dc3545;
   border-radius: 6px;
@@ -40,10 +40,10 @@ body {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.btn-success {
+.btnPerfil {
   background-color: #198754;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 7px;
   font-weight: bold;
   color: #fff;
   border-radius: 6px;
@@ -57,18 +57,26 @@ body {
   gap: 10px;
 }
 
-.nav-link {
+.navLink {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  padding: 0.5rem;
+  padding: 7px;
   border-radius: 4px;
 }
 
-.nav-link:hover,
-.nav-link.active {
-  background-color: #01629b;
-  color: #6200ff;
+.navLink:hover{
+  background-color: white;
+  color: black;
+}
+
+.navLink.active {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 4px;
 }
 
 /*Configurações Header*/
